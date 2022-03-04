@@ -1,0 +1,44 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: rgb(4, 5, 5);
+  color: white;
+}
+.search-heading {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-family: bolder;
+}
+.search-box {
+  border: 1px solid black;
+  width: 90%;
+  text-align: center;
+  border-radius: 20px;
+}
+.search-box:hover {
+  border: 1px solid red;
+}
+.search-box:focus {
+  border: 1px solid red;
+}
+
+.employee-list {
+  text-transform: uppercase;
+  font-size: 30px;
+  font-family: bolder;
+  margin-top: 20px;
+}
+
+.tr th {
+  text-transform: uppercase;
+  color: white;
+}
+td {
+  color: white !important;
+}
+
+@media (min-width: 670px) {
+  .search-box {
+    width: 20%;
+  }
+}
